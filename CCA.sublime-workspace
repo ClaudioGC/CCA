@@ -3,42 +3,61 @@
 	{
 		"selected_items":
 		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-family"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "/C/wamp/www/cca/index.html",
 			"settings":
 			{
-				"buffer_size": 1330,
+				"buffer_size": 1559,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "stylesheet.css",
+			"file": "/C/wamp/www/cca/less/compiler.less",
 			"settings":
 			{
-				"buffer_size": 911,
-				"line_ending": "Windows"
+				"buffer_size": 942,
+				"line_ending": "Windows",
+				"name": "/*"
 			}
 		},
 		{
+			"file": "/C/wamp/www/cca/less/muli.less",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
+				"buffer_size": 101,
+				"line_ending": "Windows",
+				"name": "/*"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 260.0,
 		"selected_items":
 		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 392.0
+		"width": 384.0
 	},
 	"console":
 	{
@@ -55,8 +74,9 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/CCA/index.html",
+		"/C/wamp/www/cca/stylesheet.css",
 		"/C/wamp/www/CCA/stylesheet.css",
+		"/C/wamp/www/CCA/index.html",
 		"/C/Users/Claudio/Desktop/descargas juegos y prog/jquery.mobile-1.4.5/jquery.mobile.theme-1.4.5.min.css",
 		"/C/Users/Claudio/Desktop/descargas juegos y prog/jquery.mobile-1.4.5/demos/button/index.html",
 		"/C/Users/Claudio/Desktop/descargas juegos y prog/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css",
@@ -96,23 +116,23 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/C/wamp/www/cca/index.html",
 					"settings":
 					{
-						"buffer_size": 1330,
+						"buffer_size": 1559,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								229,
-								229
+								1495,
+								1495
 							]
 						],
 						"settings":
@@ -122,30 +142,31 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 631.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "stylesheet.css",
+					"file": "/C/wamp/www/cca/less/compiler.less",
 					"settings":
 					{
-						"buffer_size": 911,
+						"buffer_size": 942,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								64,
-								64
+								157,
+								157
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"auto_name": "/*",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -155,22 +176,24 @@
 				},
 				{
 					"buffer": 2,
+					"file": "/C/wamp/www/cca/less/muli.less",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								101,
+								101
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"auto_name": "/*",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -187,7 +210,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -237,6 +260,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 209.0,
 	"status_bar_visible": true
 }
