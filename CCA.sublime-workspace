@@ -19,7 +19,7 @@
 			"file": "/C/wamp/www/cca/index.html",
 			"settings":
 			{
-				"buffer_size": 1559,
+				"buffer_size": 1650,
 				"line_ending": "Windows"
 			}
 		},
@@ -27,7 +27,7 @@
 			"file": "/C/wamp/www/cca/less/compiler.less",
 			"settings":
 			{
-				"buffer_size": 942,
+				"buffer_size": 1167,
 				"line_ending": "Windows",
 				"name": "/*"
 			}
@@ -116,7 +116,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -124,15 +124,15 @@
 					"file": "/C/wamp/www/cca/index.html",
 					"settings":
 					{
-						"buffer_size": 1559,
+						"buffer_size": 1650,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1495,
-								1495
+								308,
+								308
 							]
 						],
 						"settings":
@@ -142,7 +142,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 631.0,
+						"translation.y": 329.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -152,24 +152,25 @@
 					"file": "/C/wamp/www/cca/less/compiler.less",
 					"settings":
 					{
-						"buffer_size": 942,
+						"buffer_size": 1167,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								157,
-								157
+								450,
+								450
 							]
 						],
 						"settings":
 						{
 							"auto_name": "/*",
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 364.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
