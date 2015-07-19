@@ -10,19 +10,27 @@
 // Variables
 
 @ancho: 						960px;
-@cuerpo: 						16px;	
+@cuerpo: 						 16px;	
+@color:                       #E84231;
+@color2:                      #1A1A1A;
+@color3:                      #333333;
+@color4:                      #161616;
+@color5:                      #B1B1B1;
 
+a{
+	text-decoration:none;
+} 
 
 a:hover
 {
-	color: #E84231;
+	color: @color;
 	text-decoration: none;
 
 }
 
 .caja
 {
-    background-color:#1A1A1A;
+    background-color: @color2;
     width:100%;
 }
 body
@@ -31,7 +39,7 @@ body
 	font-size: @cuerpo;
 	width: @ancho;
 	margin: 0 auto;
-	background-color: #333333;
+	background-color: @color3;
 
 table
 {
@@ -44,7 +52,7 @@ table
 .buscar
 {
 	font-size: 2em;
-	color:#E84231;
+	color: @color;
     width: 100%;
     margin-left:3em;
     margin-right:3em;
@@ -53,7 +61,7 @@ table
 
 h2
 {
-	color:white;
+	color: white;
 	font-size: 1em;
     text-align: center;
     width: 100%;
@@ -78,9 +86,9 @@ h2
 
 .menu1
 {
-	background-color:#161616;
+	background-color:@color4;
 	text-decoration:none;
-	color: #B1B1B1;
+	color: @color5;
 	text-align:center;
 	font-size:1em;
 	width: 100%;
@@ -89,9 +97,9 @@ h2
 
 .menu2
 {
-	background-color:#161616;
+	background-color:@color4;
 	text-decoration:none;
-	color: #B1B1B1;
+	color: @color5;
 	text-align:center;
 	width: 100%;
 	height:100%;
