@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$('h2').mouseenter(function(){
+	$('caja').mouseenter(function(){
 		$('caja').fadeTo('fast', 1);
 	});
 
