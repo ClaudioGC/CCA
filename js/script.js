@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
-	$('caja').mouseenter(function(){
-		$('caja').fadeTo('slow', 1);
+	$('#titulo').mouseenter(function(){
+		$('#titulo').fadeTo('slow', 1);
 	});
 
-	$('caja').mouseleave(function(){
-		$('caja').fadeTo('fast', 0.5);
+	$('#titulo').mouseleave(function(){
+		$('#titulo').fadeTo('fast', 0.5);
 	});
 
 });
