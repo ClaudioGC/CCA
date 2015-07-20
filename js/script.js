@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	$('caja').mouseenter(function(){
-		$('caja').fadeTo('fast', 1);
+		$('caja').fadeTo('slow', 1);
 	});
 
 	$('caja').mouseleave(function(){
