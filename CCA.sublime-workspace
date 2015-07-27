@@ -15,30 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/wamp/www/cca/index.html",
-			"settings":
-			{
-				"buffer_size": 2220,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/wamp/www/cca/less/compiler.less",
-			"settings":
-			{
-				"buffer_size": 1679,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/wamp/www/cca/less/muli.less",
-			"settings":
-			{
-				"buffer_size": 207,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -72,6 +48,7 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/cca/src/index.html",
 		"/C/wamp/www/cca/index.html",
 		"/C/wamp/www/cca/less/compiler.less",
 		"/C/wamp/www/cca/less/muli.less",
@@ -122,89 +99,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/wamp/www/cca/index.html",
-					"settings":
-					{
-						"buffer_size": 2220,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/wamp/www/cca/less/compiler.less",
-					"settings":
-					{
-						"buffer_size": 1679,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1011,
-								1011
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1237.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/wamp/www/cca/less/muli.less",
-					"settings":
-					{
-						"buffer_size": 207,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
