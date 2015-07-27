@@ -11,133 +11,123 @@
 
 @ancho: 						 100%;
 @titulo:                         20px;
-@cuerpo: 						 16px;	
+@cuerpo: 						 16px;
+@robotoslab:              Roboto Slab;
+@Muli:                           Muli;
 @color:                       #E84231;
 @color2:                      #1A1A1A;
 @color3:                      #333333;
 @color4:                      #161616;
 @color5:                      #B1B1B1;
 
-a
-{
+a{
+	
 	text-decoration: none;
 	color:@color5;
 } 
 
-a:hover
-{
+a:hover{
 	color: @color;
 	text-decoration: none;
 
 }
 
-body
-{
-	font-family: Muli;
-	display: block;
+body{
 	font-size: @cuerpo;
 	width: @ancho;
-	margin: 0 auto;
-	background-color: @color3;
+	margin:0 auto;
+
 }
 
-table
-{
+table{
 
 	text-decoration: none;
 }
 
-#encabezado
-{
 
-display:block;
-position:fixed;
-width:100%;
-height:160px;
-size:30%;
-
-
-}
-
-.logo
-{
-
-	width:80%;
+.logo{
+	width:30%;
+	margin-top:40px;
 	float:left;
 
 }
 
-#buscar
-{
-
+#buscar{
 	font-size: 1em;
 	color: @color;
-	width:80%;
-    margin-left:2em;
+	margin-top:80px;
+    margin-right:40px;
     float:right;
+}
+
+#encabezado{
+    width:100%;
+    height:160px;
+    background-color:@color2;
+    scale:0,5;
     
 }
 
 
-.caja
-{
-    background-color: @color2;
-    width:100%;
-    padding:10px;
-}
 
-#titulo
-{
+
+#titulo1{
+	font-family:@Muli;
     background-color: @color2;
     width:100%;
-    padding:10px;
+    padding-top:0.5px;
+    padding-bottom:0.5px;
     opacity:80%;
-}
-
-h2
-{
+      h2{
 	color: white;
-	font-size: 1em;
-    text-align: center;
+	font-size: 20px;
+    text-align: left;
     width: 100%;
-    margin: 0 auto;
+    margin-left:60px;
+}
+}
+#titulo2{
+	font-family:@Muli;
+    background-color: @color2;
+    width:100%;
+    padding-top:0.5px;
+    padding-bottom:0.5px;
+    opacity:80%;
+    h2{
+	color: white;
+	font-size: 20px;
+    text-align: left;
+    width:100%;
+    margin-left:60px;
+}
+}
+.imagen{
 
-    
+	width:100%;
 }
 
-.imagen
+.cajaimagen
 {
-
-	width: 100%;
-	
-
+    width:100%;
+    padding-top:0px;
 }
 
-.menu1
-{
+
+.caja{
+	display:block;
 	background-color:@color4;
 	text-decoration:none;
 	color: @color5;
-	text-align:center;
 	font-size:1em;
-	width: 100%;
-	height:100%;
+	padding:50px;
 }
 
-.menu2
-{
-	background-color:@color4;
-	text-decoration:none;
-	color: @color5;
-	text-align:center;
-	font-size:1em;
-	width: 100%;
-	height:100%;
+#menu1{
+    font-family:@robotoslab;
+	margin:30px;
 }
 
-#footer
-{
-	background-color:@color2;
-	clear:both;
-	position:relative;
+#menu2{
+    font-family:@robotoslab;
+	margin:30px;
 }
